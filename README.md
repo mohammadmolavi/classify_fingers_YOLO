@@ -31,6 +31,9 @@ pip install -r requirements.txt
 
 ## Files
 
+### `model.pdf`
+It contains the model specifications, accuracy, and performance.
+
 ### `detect.py`
 
 This script processes live video input, detects fingers in real-time, and displays the results with bounding boxes and class labels. Key functionalities include:
@@ -53,9 +56,10 @@ This notebook is used for training the YOLO model on the provided dataset. It in
 
 ### Training the Model
 
-1. Open the `Train.ipynb` notebook.
-2. Follow the steps to preprocess the dataset, configure the model, and train it.
-3. Save the trained model as `best (1).pt`.
+1. upload the `Train.ipynb` notebook to the colab.
+2. add dataset to your google drive.
+3. Follow the steps to preprocess the dataset, configure the model, and train it.
+4. Save the trained model as `best (1).pt`.
 
 ### Running the Detection Script
 
@@ -75,7 +79,8 @@ The detection script visualizes the following:
 - Predicted class labels overlayed on the bounding boxes.
 
 This is an example to show how it works:
-./sample.jpeg
+![fingers](./sample.jpeg)
+
 
 
 
